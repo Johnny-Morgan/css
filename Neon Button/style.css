@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: red;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+a:hover {
+    background: #f81b1b;
+    color: #201f1f;
+    box-shadow: 0 0 5px #f81b1b,
+                0 0 25px #f81b1b,
+                0 0 50px #f81b1b,
+                0 0 200px #f81b1b;
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
